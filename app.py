@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load data
-master = pd.read_csv(r"C:\Users\shiva\OneDrive\Desktop\india_gold_project\cleaned_data\master_clean.csv", index_col='year')
+master = pd.read_csv("master_clean.csv", index_col='year')
 master['total_gold_demand'] = master['jewellery_demand_tonnes'] + master['bar_coin_demand_tonnes']
 
 # App title
